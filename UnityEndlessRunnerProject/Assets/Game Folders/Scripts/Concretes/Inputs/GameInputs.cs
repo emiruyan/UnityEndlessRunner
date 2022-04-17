@@ -37,6 +37,15 @@ namespace UnityEndlessRunnerProject.Inputs
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""95f6a1c8-6b05-4690-ada0-93a424a77644"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -44,7 +53,7 @@ namespace UnityEndlessRunnerProject.Inputs
                     ""name"": ""AD"",
                     ""id"": ""2eb6eee7-437b-4f3c-8e1e-898bc9840ec8"",
                     ""path"": ""1DAxis"",
-                    ""interactions"": """",
+                    ""interactions"": ""Press(behavior=2)"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""HorizontalMove"",
@@ -72,6 +81,17 @@ namespace UnityEndlessRunnerProject.Inputs
                     ""action"": ""HorizontalMove"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bedb1106-72cd-4a58-945d-28df21f38a5b"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": ""Tap(duration=0.1)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -81,6 +101,7 @@ namespace UnityEndlessRunnerProject.Inputs
             // PlayerOnFoot
             m_PlayerOnFoot = asset.FindActionMap("PlayerOnFoot", throwIfNotFound: true);
             m_PlayerOnFoot_HorizontalMove = m_PlayerOnFoot.FindAction("HorizontalMove", throwIfNotFound: true);
+            m_PlayerOnFoot_Jump = m_PlayerOnFoot.FindAction("Jump", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -141,11 +162,13 @@ namespace UnityEndlessRunnerProject.Inputs
         private readonly InputActionMap m_PlayerOnFoot;
         private IPlayerOnFootActions m_PlayerOnFootActionsCallbackInterface;
         private readonly InputAction m_PlayerOnFoot_HorizontalMove;
+        private readonly InputAction m_PlayerOnFoot_Jump;
         public struct PlayerOnFootActions
         {
             private @GameInputs m_Wrapper;
             public PlayerOnFootActions(@GameInputs wrapper) { m_Wrapper = wrapper; }
             public InputAction @HorizontalMove => m_Wrapper.m_PlayerOnFoot_HorizontalMove;
+            public InputAction @Jump => m_Wrapper.m_PlayerOnFoot_Jump;
             public InputActionMap Get() { return m_Wrapper.m_PlayerOnFoot; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -158,6 +181,9 @@ namespace UnityEndlessRunnerProject.Inputs
                     @HorizontalMove.started -= m_Wrapper.m_PlayerOnFootActionsCallbackInterface.OnHorizontalMove;
                     @HorizontalMove.performed -= m_Wrapper.m_PlayerOnFootActionsCallbackInterface.OnHorizontalMove;
                     @HorizontalMove.canceled -= m_Wrapper.m_PlayerOnFootActionsCallbackInterface.OnHorizontalMove;
+                    @Jump.started -= m_Wrapper.m_PlayerOnFootActionsCallbackInterface.OnJump;
+                    @Jump.performed -= m_Wrapper.m_PlayerOnFootActionsCallbackInterface.OnJump;
+                    @Jump.canceled -= m_Wrapper.m_PlayerOnFootActionsCallbackInterface.OnJump;
                 }
                 m_Wrapper.m_PlayerOnFootActionsCallbackInterface = instance;
                 if (instance != null)
@@ -165,6 +191,9 @@ namespace UnityEndlessRunnerProject.Inputs
                     @HorizontalMove.started += instance.OnHorizontalMove;
                     @HorizontalMove.performed += instance.OnHorizontalMove;
                     @HorizontalMove.canceled += instance.OnHorizontalMove;
+                    @Jump.started += instance.OnJump;
+                    @Jump.performed += instance.OnJump;
+                    @Jump.canceled += instance.OnJump;
                 }
             }
         }
@@ -172,6 +201,7 @@ namespace UnityEndlessRunnerProject.Inputs
         public interface IPlayerOnFootActions
         {
             void OnHorizontalMove(InputAction.CallbackContext context);
+            void OnJump(InputAction.CallbackContext context);
         }
     }
 }
