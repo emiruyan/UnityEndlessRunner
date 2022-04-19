@@ -63,7 +63,7 @@ namespace UnityEndlessRunnerProject.Inputs
                 {
                     ""name"": ""negative"",
                     ""id"": ""ddcde753-a543-4fa0-b694-68bb96f41f0a"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -74,7 +74,7 @@ namespace UnityEndlessRunnerProject.Inputs
                 {
                     ""name"": ""positive"",
                     ""id"": ""2506b74e-33d3-4941-bfc3-5c429c240772"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

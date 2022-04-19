@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="410c075f-c1d3-4631-93e3-63da0db9c1a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityEndlessRunnerProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityEndlessRunnerProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Abstracts/Inputs/IInputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Abstracts/Inputs/IInputReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Characters/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Characters/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Controllers/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Controllers/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/GameInputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/GameInputs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/GameInputs.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/GameInputs.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/InputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/InputReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Movements/JumpWithRigidbody.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Movements/JumpWithRigidbody.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Movements/HorizontalMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Movements/HorizontalMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,8 @@
       <updated>1650046072304</updated>
       <workItem from="1650046078921" duration="863000" />
       <workItem from="1650197598581" duration="4387000" />
-      <workItem from="1650211331365" duration="1548000" />
+      <workItem from="1650211331365" duration="1621000" />
+      <workItem from="1650396476828" duration="1844000" />
     </task>
     <servers />
   </component>

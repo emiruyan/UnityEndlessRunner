@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: b8f20d5ca50d16143afc11f5e4af6fc1, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 81f714daf7144784b8a2f42f1cd30927, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: aaa34c8b17e5a2e4b96cf9c0aa2f7606, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 6218837998ca46f4cbf464e4b535195d, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -123,41 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &388674427 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4731022961456324130, guid: 080b4f05ac690164b9354fc97a42452d, type: 3}
-  m_PrefabInstance: {fileID: 4731022962017766840}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &388674432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 388674427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 037991d01981c0a439c7651537126c59, type: 3}
-  m_NotificationBehavior: 3
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: PlayerOnFoot
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,8 +292,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.0013493064, y: 0.94690144, z: -0.32149664, w: -0.003973942}
-  m_LocalPosition: {x: -0.070399456, y: 6.7024364, z: 52.897396}
+  m_LocalRotation: {x: -0.31979954, y: 0.0028456997, z: -0.00097338774, w: -0.94748044}
+  m_LocalPosition: {x: -0.04613384, y: 6.2488728, z: -5.8224874}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -355,7 +320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6921769268479894715, guid: 894de7390e24de84e884df7ab9554da7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20
+      value: 26.68
       objectReference: {fileID: 0}
     - target: {fileID: 6921769268479894715, guid: 894de7390e24de84e884df7ab9554da7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -398,10 +363,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3057455835722264734, guid: 080b4f05ac690164b9354fc97a42452d, type: 3}
-      propertyPath: m_Mass
-      value: 0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 4731022961456324130, guid: 080b4f05ac690164b9354fc97a42452d, type: 3}
       propertyPath: m_Name
       value: Player
@@ -416,11 +377,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4731022961456324131, guid: 080b4f05ac690164b9354fc97a42452d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.049999952
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4731022961456324131, guid: 080b4f05ac690164b9354fc97a42452d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 47.48
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4731022961456324131, guid: 080b4f05ac690164b9354fc97a42452d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -450,10 +411,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7229894485141059758, guid: 080b4f05ac690164b9354fc97a42452d, type: 3}
-      propertyPath: _jumpForce
-      value: 1500
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5106020905321034958, guid: 080b4f05ac690164b9354fc97a42452d, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 080b4f05ac690164b9354fc97a42452d, type: 3}
