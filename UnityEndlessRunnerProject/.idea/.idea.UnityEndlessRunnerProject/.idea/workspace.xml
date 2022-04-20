@@ -6,12 +6,35 @@
   <component name="ChangeListManager">
     <list default="true" id="410c075f-c1d3-4631-93e3-63da0db9c1a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityEndlessRunnerProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityEndlessRunnerProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Characters/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Characters/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Controllers/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Controllers/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/DemoScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/DemoScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/DemoSceneSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/DemoSceneSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Script.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Script/LookCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Script/LookCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Back_Tex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Back_Tex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Down_Tex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Down_Tex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Front_Tex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Front_Tex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Left_Tex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Left_Tex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Right_Tex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Right_Tex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Up_Tex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Demo/Textures/Up_Tex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Skybox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/Starfield Skybox/Skybox.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Floors/Floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Floors/Floor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Floors/Floor1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Floors/Floor1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/GameInputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/GameInputs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/GameInputs.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/GameInputs.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Movements/HorizontalMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Movements/HorizontalMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +106,7 @@
       <workItem from="1650197598581" duration="4387000" />
       <workItem from="1650211331365" duration="1621000" />
       <workItem from="1650396476828" duration="1844000" />
+      <workItem from="1650480271229" duration="1561000" />
     </task>
     <servers />
   </component>
