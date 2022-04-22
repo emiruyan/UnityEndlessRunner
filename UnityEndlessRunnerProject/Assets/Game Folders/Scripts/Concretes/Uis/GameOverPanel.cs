@@ -5,18 +5,19 @@ using UnityEngine;
 
 namespace UnityEndlessRunnerProject.Uis
 {
-    public class MenuPanel : MonoBehaviour
+    public class GameOverPanel : MonoBehaviour
     {
-        public void StartButton()
+        public void YesButton()
         {
-            GameManager.Instance.LoadScene("Game");
+            GameManager.Instance.LoadScene("GAME");
         }
 
-        public void ExitButton()
+        public void NoButton()
         {
-             GameManager.Instance.ExitGame();
+            GameManager.Instance.LoadScene("Menu");
         }
     }
-
+    
 }
+
 

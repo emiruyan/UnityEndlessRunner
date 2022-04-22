@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEndlessRunnerProject.Abstracts.Utilites;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace  UnityEndlessRunnerProject.Managers
 {
@@ -19,9 +20,16 @@ namespace  UnityEndlessRunnerProject.Managers
             Time.timeScale = 0f; //timeScale slow motion time komutudur. 0 yaparsak tamamen duruyor.
         }
 
-        public void LoadScene()
+        public void LoadScene(string sceneName)
         {
-            Debug.Log("Load Scene Clicked");
+            StartCoroutine(LoadSceneAsync(sceneName));
+        }
+
+        private IEnumerator LoadSceneAsync(string sceneName)
+        {
+
+            Time.timeScale = 1f;
+            yield return SceneManager.LoadSceneAsync(sceneName);
         }
 
         public void ExitGame()
