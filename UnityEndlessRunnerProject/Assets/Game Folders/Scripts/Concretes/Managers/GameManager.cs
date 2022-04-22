@@ -18,6 +18,19 @@ namespace  UnityEndlessRunnerProject.Managers
         {
             Time.timeScale = 0f; //timeScale slow motion time komutudur. 0 yaparsak tamamen duruyor.
         }
+
+        public void LoadScene()
+        {
+            Debug.Log("Load Scene Clicked");
+        }
+
+        public void ExitGame()
+        {
+            Debug.Log("Exit On Clikced");
+            Application.Quit();
+        }
     }
+    
+  
 }
 
