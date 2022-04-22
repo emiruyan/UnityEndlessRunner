@@ -361,6 +361,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2086298987912885227, guid: 674b6cc5ddfb89c42aee19af217e0109, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086298987912885227, guid: 674b6cc5ddfb89c42aee19af217e0109, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2b4a1682166e4434e8ee7c6f47115b43, type: 3}
+    - target: {fileID: 2086298987912885227, guid: 674b6cc5ddfb89c42aee19af217e0109, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4015352382326857586, guid: 674b6cc5ddfb89c42aee19af217e0109, type: 3}
       propertyPath: m_Name
       value: MenuCanvas
