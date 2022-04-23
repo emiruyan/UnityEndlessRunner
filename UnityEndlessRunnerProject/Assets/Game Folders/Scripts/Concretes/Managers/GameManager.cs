@@ -10,6 +10,8 @@ namespace  UnityEndlessRunnerProject.Managers
     
     public class GameManager : SingletonMonoBehaviourObject<GameManager>
     {
+        public event System.Action OnGameStop;
+        
         private void Awake()
         {
             SingletonThisObject(this);
@@ -18,6 +20,7 @@ namespace  UnityEndlessRunnerProject.Managers
         public void StopGame()
         {
             Time.timeScale = 0f; //timeScale slow motion time komutudur. 0 yaparsak tamamen duruyor.
+            OnGameStop?.Invoke();
         }
 
         public void LoadScene(string sceneName)
