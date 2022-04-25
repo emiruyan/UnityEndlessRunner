@@ -11,4 +11,4 @@ namespace UnityEndlessRunnerProject.Abstracts.Movements
     }
 }
 
-
+    

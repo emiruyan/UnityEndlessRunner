@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEndlessRunnerProject.Abstracts.Controllers;
 using UnityEndlessRunnerProject.Abstracts.Utilites;
 using UnityEndlessRunnerProject.Controllers;
 using UnityEngine;
@@ -12,7 +13,7 @@ namespace  UnityEndlessRunnerProject.Managers
     
     public class EnemyManager : SingletonMonoBehaviourObject<EnemyManager> //singleton yaptık
     {
-        [SerializeField]  EnemyController _enemyPrefab; 
+        [SerializeField] EnemyController _enemyPrefab; 
         Queue<EnemyController> _enemies = new Queue<EnemyController>();
 
         private void Awake()

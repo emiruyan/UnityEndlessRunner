@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEndlessRunnerProject.Abstracts.Controllers;
 using UnityEndlessRunnerProject.Abstracts.Movements;
 using UnityEndlessRunnerProject.Controllers;
@@ -15,7 +14,7 @@ namespace  UnityEndlessRunnerProject.Movements
         public VerticalMover(IEntityController entityController)
         {
             _entityController  = entityController;
-            //_moveSpeed = entityController.MoveSpeed;
+            _moveSpeed = entityController.MoveSpeed;
         }
 
         public void FixedTick(float vertical = 1)// float vertical 1 diyerek default değer atamış olduk.

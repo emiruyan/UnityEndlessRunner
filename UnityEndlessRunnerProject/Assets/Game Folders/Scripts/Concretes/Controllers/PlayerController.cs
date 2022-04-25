@@ -13,10 +13,9 @@ using UnityEngine.InputSystem;
 namespace UnityEndlessRunnerProject.Controllers
 
 {
-    public class PlayerController : MonoBehaviour, IEntityController
+    public class PlayerController : MyCharacterController, IEntityController
     {
-        [SerializeField] float _moveSpeed = 10f;
-        [SerializeField] float _moveBoundary = 4.5f;
+        
         [SerializeField] float _jumpForce = 300f;
         
 
@@ -26,9 +25,7 @@ namespace UnityEndlessRunnerProject.Controllers
         float _horizontal; 
         bool _isJump;
         bool _isDead; //playerımız çarpıştığında komut almasının önüne geçtik
-
-        public float MoveSpeed => _moveSpeed;
-        public float MoveBoundary => _moveBoundary; 
+        
 
         private void Awake()
         {
