@@ -1,24 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEndlessRunnerProject.Abstracts.Controllers;
+using UnityEndlessRunnerProject.Abstracts.Movements;
 using UnityEndlessRunnerProject.Controllers;
 using UnityEngine;
 
 namespace  UnityEndlessRunnerProject.Movements
 {
-    public class VerticalMover
+    public class VerticalMover : IMover
     {
-        EnemyController _enemyController;
+        IEntityController _entityController;
         float _moveSpeed;
 
-        public VerticalMover(EnemyController enemyController)
+        public VerticalMover(IEntityController entityController)
         {
-            _enemyController = enemyController;
-            _moveSpeed = enemyController.MoveSpeed;
+            _entityController  = entityController;
+            //_moveSpeed = entityController.MoveSpeed;
         }
 
         public void FixedTick(float vertical = 1)// float vertical 1 diyerek default değer atamış olduk.
         {
-            _enemyController.transform.Translate(Vector3.forward * vertical * _moveSpeed * Time.deltaTime);
+            _entityController.transform.Translate(Vector3.forward * vertical * _moveSpeed * Time.deltaTime);
         }
     }
 }

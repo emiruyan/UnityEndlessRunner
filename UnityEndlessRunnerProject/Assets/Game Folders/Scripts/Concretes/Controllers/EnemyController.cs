@@ -1,13 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEndlessRunnerProject.Abstracts.Controllers;
 using UnityEndlessRunnerProject.Managers;
 using UnityEndlessRunnerProject.Movements;
 using UnityEngine;
 
 namespace UnityEndlessRunnerProject.Controllers
 {
-    public class EnemyController : MonoBehaviour
+    public class EnemyController : MonoBehaviour, IEntityController
     {
         [SerializeField] float _moveSpeed = 10f;
         [SerializeField] float _maxLifeTime = 10f;

@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEndlessRunnerProject.Abstracts.Controllers;
 using UnityEndlessRunnerProject.Abstracts.Inputs;
+using UnityEndlessRunnerProject.Abstracts.Movements;
 using UnityEndlessRunnerProject.Inputs;
 using UnityEndlessRunnerProject.Managers;
 using UnityEndlessRunnerProject.Movements;
@@ -11,15 +13,15 @@ using UnityEngine.InputSystem;
 namespace UnityEndlessRunnerProject.Controllers
 
 {
-    public class PlayerController : MonoBehaviour
+    public class PlayerController : MonoBehaviour, IEntityController
     {
         [SerializeField] float _moveSpeed = 10f;
         [SerializeField] float _moveBoundary = 4.5f;
         [SerializeField] float _jumpForce = 300f;
         
 
-        HorizontalMover _horizontalMover;
-        JumpWithRigidbody _jump;
+        IMover _mover;
+        IJump _jump;
         IInputReader _input; 
         float _horizontal; 
         bool _isJump;
@@ -30,7 +32,7 @@ namespace UnityEndlessRunnerProject.Controllers
 
         private void Awake()
         {
-            _horizontalMover = new HorizontalMover(this);
+            _mover = new HorizontalMover(this);
             _jump = new JumpWithRigidbody(this);
             _input = new InputReader(GetComponent<PlayerInput>());
         }
@@ -53,11 +55,11 @@ namespace UnityEndlessRunnerProject.Controllers
 
         private void FixedUpdate()
         {
-            _horizontalMover.TickFixed(_horizontal);
+            _mover.FixedTick(_horizontal);
             
             if (_isJump)
             {
-                _jump.TickFixed(_jumpForce);
+                _jump.FixedTick(_jumpForce);
                 
             }
             
@@ -67,9 +69,9 @@ namespace UnityEndlessRunnerProject.Controllers
         private void OnTriggerEnter(Collider other)
         {
             {
-                EnemyController enemyController = other.GetComponent<EnemyController>();
+                IEntityController entityController = other.GetComponent<IEntityController>();
 
-                if (enemyController != null)
+                if (entityController != null)
                 {
                     _isDead = true; //playerımız çarpıştığında komut almasının önüne geçtik
                     GameManager.Instance.StopGame();
