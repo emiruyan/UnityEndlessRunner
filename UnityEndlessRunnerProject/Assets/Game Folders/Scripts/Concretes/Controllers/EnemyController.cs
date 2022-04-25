@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEndlessRunnerProject.Managers;
 using UnityEndlessRunnerProject.Movements;
 using UnityEngine;
 
@@ -39,9 +40,9 @@ namespace UnityEndlessRunnerProject.Controllers
             _mover.FixedTick();
         }
         
-        private void KillYourself()
+        private void KillYourself()//önceden enemylerimiz yok olup tekrar oluşuyordu. artık enemy manager ile set pooldan çekip enemyleri dönüştürüyoruz.
         {
-            Destroy(this.gameObject);
+            EnemyManager.Instance.SetPool(this);
         }
     }
 }
