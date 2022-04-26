@@ -1,10 +1,11 @@
-using System;
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEndlessRunnerProject.Abstracts.Controllers;
 using UnityEndlessRunnerProject.Abstracts.Utilites;
 using UnityEndlessRunnerProject.Controllers;
 using UnityEngine;
+
 
 namespace  UnityEndlessRunnerProject.Managers
 {
@@ -30,7 +31,7 @@ namespace  UnityEndlessRunnerProject.Managers
         {
             for (int i = 0; i < 10; i++)
             {
-                EnemyController newEnemy = Instantiate(_enemyPrefab);
+                 EnemyController newEnemy = Instantiate(_enemyPrefab);
                 newEnemy.gameObject.SetActive(false);
                 newEnemy.transform.parent = this.transform; 
                 _enemies.Enqueue(newEnemy);

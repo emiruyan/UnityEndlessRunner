@@ -90,6 +90,10 @@ PrefabInstance:
       propertyPath: _min
       value: 3.19
       objectReference: {fileID: 0}
+    - target: {fileID: 7058753939742182424, guid: 4bbfbf6092b806a4fac518ff8b4085cb, type: 3}
+      propertyPath: _enemyPrefab
+      value: 
+      objectReference: {fileID: 4320535544077931896, guid: 941f0edac4cfe7e43869dbc250955c0e, type: 3}
     - target: {fileID: 7791681483076110421, guid: 4bbfbf6092b806a4fac518ff8b4085cb, type: 3}
       propertyPath: m_Name
       value: Spawner (1)
@@ -156,6 +160,10 @@ PrefabInstance:
       propertyPath: _min
       value: 3.95
       objectReference: {fileID: 0}
+    - target: {fileID: 7058753939742182424, guid: 4bbfbf6092b806a4fac518ff8b4085cb, type: 3}
+      propertyPath: _enemyPrefab
+      value: 
+      objectReference: {fileID: 4320535544077931896, guid: 941f0edac4cfe7e43869dbc250955c0e, type: 3}
     - target: {fileID: 7791681483076110421, guid: 4bbfbf6092b806a4fac518ff8b4085cb, type: 3}
       propertyPath: m_Name
       value: Spawner (3)
@@ -222,6 +230,10 @@ PrefabInstance:
       propertyPath: _min
       value: 0.72
       objectReference: {fileID: 0}
+    - target: {fileID: 7058753939742182424, guid: 4bbfbf6092b806a4fac518ff8b4085cb, type: 3}
+      propertyPath: _enemyPrefab
+      value: 
+      objectReference: {fileID: 4320535544077931896, guid: 941f0edac4cfe7e43869dbc250955c0e, type: 3}
     - target: {fileID: 7791681483076110421, guid: 4bbfbf6092b806a4fac518ff8b4085cb, type: 3}
       propertyPath: m_Name
       value: Spawner (2)
@@ -288,6 +300,10 @@ PrefabInstance:
       propertyPath: _min
       value: 2.39
       objectReference: {fileID: 0}
+    - target: {fileID: 7058753939742182424, guid: 4bbfbf6092b806a4fac518ff8b4085cb, type: 3}
+      propertyPath: _enemyPrefab
+      value: 
+      objectReference: {fileID: 4320535544077931896, guid: 941f0edac4cfe7e43869dbc250955c0e, type: 3}
     - target: {fileID: 7791681483076110421, guid: 4bbfbf6092b806a4fac518ff8b4085cb, type: 3}
       propertyPath: m_Name
       value: Spawner (4)
@@ -350,6 +366,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7058753939742182424, guid: 4bbfbf6092b806a4fac518ff8b4085cb, type: 3}
+      propertyPath: _enemyPrefab
+      value: 
+      objectReference: {fileID: 4320535544077931896, guid: 941f0edac4cfe7e43869dbc250955c0e, type: 3}
     - target: {fileID: 7791681483076110421, guid: 4bbfbf6092b806a4fac518ff8b4085cb, type: 3}
       propertyPath: m_Name
       value: Spawner
