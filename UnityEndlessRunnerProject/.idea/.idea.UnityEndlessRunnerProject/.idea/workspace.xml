@@ -6,14 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="410c075f-c1d3-4631-93e3-63da0db9c1a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityEndlessRunnerProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityEndlessRunnerProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/YughuesFreeMetalMaterials/Materials/M_YFMM_49.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetFolders/YughuesFreeMetalMaterials/Materials/M_YFMM_49.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Enemies/Enemy Utilites/Spawners.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Enemies/Enemy Utilites/Spawners.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Enemies/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Enemies/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetFolders/YughuesFreeMetalMaterials/Materials/M_YFMM_46.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetFolders/YughuesFreeMetalMaterials/Materials/M_YFMM_46.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Enemies/Enemy1 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Enemies/Enemy1 1.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Enemies/Enemy1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Enemies/Enemy1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Floors/Floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Floors/Floor.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Managers/[EnemyManager].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Managers/[EnemyManager].prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Controllers/FloorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Controllers/FloorController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Managers/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Managers/EnemyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,8 @@
       <workItem from="1650912752449" duration="2945000" />
       <workItem from="1650918394736" duration="3505000" />
       <workItem from="1650999226427" duration="1879000" />
-      <workItem from="1651004907859" duration="1074000" />
+      <workItem from="1651004907859" duration="2075000" />
+      <workItem from="1651085683435" duration="1191000" />
     </task>
     <servers />
   </component>
@@ -121,6 +121,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Managers/EnemyManager.cs</url>
+          <line>39</line>
+          <properties documentPath="C:\Users\emir-\Documents\GitHub\UnityEndlessRunner\UnityEndlessRunnerProject\Assets\Game Folders\Scripts\Concretes\Managers\EnemyManager.cs" initialLine="39" containingFunctionPresentation="method 'InitilaizePool'">
+            <startOffsets>
+              <option value="1303" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1304" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

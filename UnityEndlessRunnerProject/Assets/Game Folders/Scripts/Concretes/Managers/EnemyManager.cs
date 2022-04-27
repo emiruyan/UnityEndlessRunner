@@ -7,6 +7,7 @@ using UnityEndlessRunnerProject.Controllers;
 using UnityEngine;
 
 
+
 namespace  UnityEndlessRunnerProject.Managers
 {
     
@@ -14,7 +15,7 @@ namespace  UnityEndlessRunnerProject.Managers
     
     public class EnemyManager : SingletonMonoBehaviourObject<EnemyManager> //singleton yaptık
     {
-        [SerializeField] EnemyController _enemyPrefab; 
+        [SerializeField] EnemyController[] _enemyPrefabs; 
         Queue<EnemyController> _enemies = new Queue<EnemyController>();
 
         private void Awake()
@@ -27,11 +28,11 @@ namespace  UnityEndlessRunnerProject.Managers
             InitilaizePool();
         }
 
-        private void InitilaizePool()
+        private void InitilaizePool() 
         {
             for (int i = 0; i < 10; i++)
             {
-                 EnemyController newEnemy = Instantiate(_enemyPrefab);
+                 EnemyController newEnemy = Instantiate(_enemyPrefabs[Random.Range(0, _enemyPrefabs.Length)]);
                 newEnemy.gameObject.SetActive(false);
                 newEnemy.transform.parent = this.transform; 
                 _enemies.Enqueue(newEnemy);
