@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEndlessRunnerProject.Abstracts.Controllers;
+using UnityEndlessRunnerProject.Enums;
 using UnityEndlessRunnerProject.Managers;
 using UnityEndlessRunnerProject.Movements;
 using UnityEngine;
@@ -9,12 +10,14 @@ using UnityEngine;
 namespace UnityEndlessRunnerProject.Controllers
 {
     public class EnemyController : MyCharacterController, IEntityController
-    {
-        
+    {   
         [SerializeField] float _maxLifeTime = 10f;
+        [SerializeField] EnemyEnum _enemyEnum;
         
         VerticalMover _mover;
         float _currentLifeTime = 0f;
+
+        public EnemyEnum EnemyType => _enemyEnum;
 
         
 
@@ -23,7 +26,7 @@ namespace UnityEndlessRunnerProject.Controllers
             _mover = new VerticalMover(this);
         }
 
-        private void Update()
+        private void Update()   
         {
             _currentLifeTime += Time.deltaTime;
 

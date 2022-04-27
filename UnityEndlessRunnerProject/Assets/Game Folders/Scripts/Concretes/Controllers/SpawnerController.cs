@@ -1,10 +1,11 @@
-using System;
+
 using System.Collections;
 using System.Collections.Generic;
+using UnityEndlessRunnerProject.Enums;
 using UnityEndlessRunnerProject.Managers;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
-using Random = UnityEngine.Random;
+
 
 namespace  UnityEndlessRunnerProject.Controllers
 {
@@ -38,10 +39,10 @@ namespace  UnityEndlessRunnerProject.Controllers
 
         private void Spawn()
         {
-            EnemyController newEnemy = EnemyManager.Instance.GetPool();
+            EnemyController newEnemy = EnemyManager.Instance.GetPool((EnemyEnum)Random.Range(0,4));
             newEnemy.transform.parent = this.transform;
             newEnemy.transform.position = this.transform.position;
-            newEnemy.gameObject.SetActive(true);
+            newEnemy.gameObject.SetActive(true); 
             
             _currentSpawnTime = 0f;
             GetRandomMaxTime();
