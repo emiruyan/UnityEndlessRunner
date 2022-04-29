@@ -6,7 +6,7 @@ using UnityEndlessRunnerProject.Abstracts.Utilites;
 using UnityEndlessRunnerProject.Controllers;
 using UnityEndlessRunnerProject.Enums;
 using UnityEngine;
-
+using UnityEngine.Serialization;
 
 
 namespace  UnityEndlessRunnerProject.Managers
@@ -16,8 +16,12 @@ namespace  UnityEndlessRunnerProject.Managers
     
     public class EnemyManager : SingletonMonoBehaviourObject<EnemyManager> //singleton yaptık
     {
+        [FormerlySerializedAs("_addDeleteTime")] [SerializeField] float _addDelayTime = 50f;
         [SerializeField] EnemyController[] _enemyPrefabs; 
         Dictionary<EnemyEnum,Queue<EnemyController>> _enemies = new Dictionary<EnemyEnum, Queue<EnemyController>>();
+
+        public float AddDelayTime => _addDelayTime;
+        public int Count => _enemyPrefabs.Length;
 
         private void Awake()
         {
