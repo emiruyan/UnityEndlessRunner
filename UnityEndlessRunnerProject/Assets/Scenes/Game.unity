@@ -417,6 +417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[EnemyManager]'
       objectReference: {fileID: 0}
+    - target: {fileID: 8208947289689506779, guid: b6cdf895bdea3c1488699098460e4597, type: 3}
+      propertyPath: _addDelayTime
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6cdf895bdea3c1488699098460e4597, type: 3}
 --- !u!1001 &636048151337733414
