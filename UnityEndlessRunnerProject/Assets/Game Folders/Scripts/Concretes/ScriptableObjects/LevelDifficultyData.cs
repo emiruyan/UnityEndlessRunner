@@ -12,10 +12,16 @@ namespace  UnityEndlessRunnerProject.ScriptableObjects
         [SerializeField] FloorController _floorPrefab;
         [SerializeField] GameObject _spawnersPrefab;
         [SerializeField] Material _skyboxMaterial;
+        [SerializeField] float _moveSpeed = 30f;
+        [SerializeField] float _addDelayTime = 50f;
 
         public FloorController FloorPrefab => _floorPrefab;
-        public GameObject SpawnersPrefab => _spawnersPrefab;
+        public GameObject SpawnerPrefab => _spawnersPrefab;
         public Material SkyboxMaterial => _skyboxMaterial;
+
+        public float MoveSpeed => _moveSpeed;
+
+        public float AddDelayTime => _addDelayTime;
     }
 }
 

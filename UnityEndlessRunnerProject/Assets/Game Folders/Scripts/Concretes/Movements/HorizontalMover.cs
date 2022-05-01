@@ -9,26 +9,24 @@ namespace  UnityEndlessRunnerProject.Movements
 {
     public class HorizontalMover : IMover
     { 
-       IEntityController _playerController; 
-        float _moveSpeed;
-        float _moveBoundary;
+       IEntityController _entityController; 
+       
 
         public HorizontalMover(IEntityController entityController)
         {
-            _playerController = entityController;
-            _moveSpeed = entityController.MoveSpeed;
-            _moveBoundary = entityController.MoveBoundary;
+            _entityController = entityController;
+           
         }
         public void FixedTick(float horizontal)
         {
             if (horizontal == 0f) return;
             
                 
-            _playerController.transform.Translate(Vector3.right*horizontal*Time.deltaTime * _moveSpeed);
+            _entityController.transform.Translate(Vector3.right * horizontal * Time.deltaTime * _entityController.MoveSpeed);
 
-            float xBoundary = Mathf.Clamp(_playerController.transform.position.x, -_moveBoundary, _moveBoundary);
+            float xBoundary = Mathf.Clamp(_entityController.transform.position.x, -_entityController.MoveBoundary, _entityController.MoveBoundary);
 
-            _playerController.transform.position = new Vector3(xBoundary, _playerController.transform.position.y, 0f);
+            _entityController.transform.position = new Vector3(xBoundary, _entityController.transform.position.y, 0f);
         }
     }
 }

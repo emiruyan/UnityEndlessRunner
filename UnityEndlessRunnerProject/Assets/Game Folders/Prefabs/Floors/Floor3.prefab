@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &7477039267026439231
+--- !u!1001 &875310823927097407
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 242198690030490164, guid: 28c93c13e58b99a49895a5d2ca8374c1, type: 3}
       propertyPath: m_Name
-      value: Floor1
+      value: Floor3
       objectReference: {fileID: 0}
     - target: {fileID: 562061424180308100, guid: 28c93c13e58b99a49895a5d2ca8374c1, type: 3}
       propertyPath: m_RootOrder
@@ -55,10 +55,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 582684955779719045, guid: 28c93c13e58b99a49895a5d2ca8374c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7dc874c331998244eaa078e5d615a6dd, type: 2}
     - target: {fileID: 1418410922654416618, guid: 28c93c13e58b99a49895a5d2ca8374c1, type: 3}
       propertyPath: _moveSpeed
-      value: 0.7
+      value: 1.7
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 89044013233817632, guid: 28c93c13e58b99a49895a5d2ca8374c1, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28c93c13e58b99a49895a5d2ca8374c1, type: 3}

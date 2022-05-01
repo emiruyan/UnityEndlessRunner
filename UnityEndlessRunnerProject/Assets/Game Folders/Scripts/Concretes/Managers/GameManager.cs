@@ -2,16 +2,20 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEndlessRunnerProject.Abstracts.Utilites;
+using UnityEndlessRunnerProject.ScriptableObjects;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace  UnityEndlessRunnerProject.Managers
 {
-    
+     
     public class GameManager : SingletonMonoBehaviourObject<GameManager>
     {
-        public event System.Action OnGameStop;
+        [SerializeField] LevelDifficultyData[] _levelDifficultyDatas;
         
+        public event System.Action OnGameStop;
+        public LevelDifficultyData LevelDifficultyData => _levelDifficultyDatas[2];
+
         private void Awake()
         {
             SingletonThisObject(this);

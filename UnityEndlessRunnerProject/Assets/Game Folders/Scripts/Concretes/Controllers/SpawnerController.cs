@@ -54,7 +54,7 @@ namespace  UnityEndlessRunnerProject.Controllers
             EnemyController newEnemy = EnemyManager.Instance.GetPool((EnemyEnum)Random.Range(0,_index));
             newEnemy.transform.parent = this.transform;
             newEnemy.transform.position = this.transform.position;
-            newEnemy.gameObject.SetActive(true); 
+            newEnemy.gameObject.SetActive(true);  
             
             _currentSpawnTime = 0f;
             GetRandomMaxTime();

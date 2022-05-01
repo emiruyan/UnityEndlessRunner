@@ -7,10 +7,10 @@ namespace UnityEndlessRunnerProject.Controllers
 {
     public class FloorController : MonoBehaviour
     {
-        [Range(0.01f,2f)]
+        [Range(0.01f,2.5f)]
         [SerializeField] float _moveSpeed;
         Material _material;
-
+ 
          private void Awake()
          {
              _material = GetComponentInChildren<MeshRenderer>().material;

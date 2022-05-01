@@ -48,6 +48,13 @@ namespace UnityEndlessRunnerProject.Controllers
         {
             EnemyManager.Instance.SetPool(this);
         }
+
+        public void SetMoveSpeed(float moveSpeed)
+        {
+            if (moveSpeed < _moveSpeed) return;
+           
+            _moveSpeed = moveSpeed;
+        }
     }
 }
 
