@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="410c075f-c1d3-4631-93e3-63da0db9c1a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityEndlessRunnerProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityEndlessRunnerProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Uis/MenuCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Uis/MenuCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Uis/GameOverPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Uis/GameOverPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Uis/MenuPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Uis/MenuPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="410c075f-c1d3-4631-93e3-63da0db9c1a0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +95,7 @@
       <workItem from="1651325038354" duration="1057000" />
       <workItem from="1651351434027" duration="1187000" />
       <workItem from="1651403943241" duration="7047000" />
-      <workItem from="1651415967092" duration="2427000" />
+      <workItem from="1651415967092" duration="2666000" />
     </task>
     <servers />
   </component>
