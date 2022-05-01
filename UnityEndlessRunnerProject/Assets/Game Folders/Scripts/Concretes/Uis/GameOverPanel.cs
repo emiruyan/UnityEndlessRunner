@@ -9,11 +9,11 @@ namespace UnityEndlessRunnerProject.Uis
     {
         public void YesButton()
         {
-            GameManager.Instance.LoadScene("GAME");
+          GameManager.Instance.LoadScene("Game");
         }
 
         public void NoButton()
-        {
+        { 
             GameManager.Instance.LoadScene("Menu");
         }
     }

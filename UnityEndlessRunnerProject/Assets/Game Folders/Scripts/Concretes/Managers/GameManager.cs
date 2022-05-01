@@ -14,7 +14,26 @@ namespace  UnityEndlessRunnerProject.Managers
         [SerializeField] LevelDifficultyData[] _levelDifficultyDatas;
         
         public event System.Action OnGameStop;
-        public LevelDifficultyData LevelDifficultyData => _levelDifficultyDatas[2];
+        public LevelDifficultyData LevelDifficultyData => _levelDifficultyDatas[DifficultyIndex]; 
+        int _difficultyIndex;
+
+        public int DifficultyIndex
+        {
+            get => _difficultyIndex;
+            set
+            {
+                if (_difficultyIndex< 0 || _difficultyIndex > _levelDifficultyDatas.Length)
+                {
+                    LoadSceneAsync("Menu");
+                }
+                else
+                {
+                    _difficultyIndex = value;
+                }
+            }
+            
+        }
+        
 
         private void Awake()
         {
@@ -29,6 +48,7 @@ namespace  UnityEndlessRunnerProject.Managers
 
         public void LoadScene(string sceneName)
         {
+            
             StartCoroutine(LoadSceneAsync(sceneName));
         }
 
