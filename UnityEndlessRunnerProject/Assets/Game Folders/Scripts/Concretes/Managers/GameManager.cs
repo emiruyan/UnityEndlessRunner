@@ -35,33 +35,31 @@ namespace  UnityEndlessRunnerProject.Managers
         }
         
 
-        private void Awake()
+        private void Awake()//oyunumuz ilk başladığında
         {
             SingletonThisObject(this);
+            SoundManager.Instance.PlaySound(1);
         }
 
-        public void StopGame()
+        public void StopGame() //bir nesne ile çarpıştığımızda 
         {
             Time.timeScale = 0f; //timeScale slow motion time komutudur. 0 yaparsak tamamen duruyor.
             OnGameStop?.Invoke();
         }
 
-        public void LoadScene(string sceneName)
+        public void LoadScene(string sceneName)// oynanış başladığında
         {
-            
             StartCoroutine(LoadSceneAsync(sceneName));
         }
 
         private IEnumerator LoadSceneAsync(string sceneName)
         {
-
             Time.timeScale = 1f;
             yield return SceneManager.LoadSceneAsync(sceneName);
         }
 
-        public void ExitGame()
+        public void ExitGame()  
         {
-            Debug.Log("Exit On Clikced");
             Application.Quit();
         }
     }

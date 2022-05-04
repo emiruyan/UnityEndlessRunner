@@ -15,6 +15,7 @@ namespace UnityEndlessRunnerProject.Uis
         public void NoButton()
         { 
             GameManager.Instance.LoadScene("Menu");
+          
         }
     }
     

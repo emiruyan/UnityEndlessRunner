@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEndlessRunnerProject.Abstracts.Utilites;
 using UnityEndlessRunnerProject.Managers;
 using UnityEngine;
 
@@ -18,16 +19,19 @@ namespace UnityEndlessRunnerProject.Uis
         private void OnEnable()
         { 
             GameManager.Instance.OnGameStop += HandleOnGameStop;
+           
         }
         
         private void OnDisable()
         {
             GameManager.Instance.OnGameStop -= HandleOnGameStop;
+            
         }
         
         private void HandleOnGameStop()
         {
-            _gameOverPanel.gameObject.SetActive(true);     
+            _gameOverPanel.gameObject.SetActive(true);   
+           
         }
     }
 }
