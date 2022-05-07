@@ -38,7 +38,7 @@ namespace  UnityEndlessRunnerProject.Managers
         private void Awake()//oyunumuz ilk başladığında
         {
             SingletonThisObject(this);
-            SoundManager.Instance.PlaySound(1);
+            SoundManager.Instance.PlaySound(0); 
         }
 
         public void StopGame() //bir nesne ile çarpıştığımızda 

@@ -15,16 +15,17 @@ namespace UnityEndlessRunnerProject.Controllers
 {
     public class PlayerController : MyCharacterController, IEntityController
     {
-        
-        [SerializeField] float _jumpForce = 300f;
-        
 
+        [SerializeField] float _jumpForce;
+        
+     
         IMover _mover;
         IJump _jump;
         IInputReader _input; 
         float _horizontal; 
         bool _isJump;
         bool _isDead; //playerımız çarpıştığında komut almasının önüne geçtik
+        public Joystick _joystick;
         
 
         private void Awake()
@@ -38,7 +39,7 @@ namespace UnityEndlessRunnerProject.Controllers
         {
             if (_isDead )  return; //playerımız çarpıştığında komut almasının önüne geçtik
             
-           _horizontal= _input.Horizontal;
+           _horizontal= -_joystick.Horizontal;
            
            if (_input.IsJump)
            {
@@ -54,13 +55,6 @@ namespace UnityEndlessRunnerProject.Controllers
         {
             _mover.FixedTick(_horizontal);
             
-            if (_isJump)
-            {
-                _jump.FixedTick(_jumpForce);
-                
-            }
-            
-            _isJump = false;
         }
 
         private void OnTriggerEnter(Collider other)
@@ -74,6 +68,11 @@ namespace UnityEndlessRunnerProject.Controllers
                     GameManager.Instance.StopGame();
                 }
             }
+        }
+
+        public void JumpTrigger()
+        {
+            _jump.FixedTick(_jumpForce);
         }
     }
 }

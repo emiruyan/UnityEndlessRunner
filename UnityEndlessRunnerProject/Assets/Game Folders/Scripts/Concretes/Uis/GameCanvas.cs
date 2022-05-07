@@ -13,7 +13,7 @@ namespace UnityEndlessRunnerProject.Uis
 
         private void Awake()
         { 
-            _gameOverPanel.gameObject.SetActive(false); 
+             _gameOverPanel.gameObject.SetActive(false); 
         }
 
         private void OnEnable()

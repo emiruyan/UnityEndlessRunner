@@ -22,7 +22,7 @@ namespace UnityEndlessRunnerProject.Movements
            if (CanJump) return;
             
             _rigidbody.velocity = Vector3.zero;
-            _rigidbody.AddForce(Vector3.up * Time.deltaTime * jumpForce);
+            _rigidbody.AddForce(Vector3.up  * jumpForce);
             
         }
     }
