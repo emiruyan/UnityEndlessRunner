@@ -5,35 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="410c075f-c1d3-4631-93e3-63da0db9c1a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityEndlessRunnerProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityEndlessRunnerProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Decoration/Icon1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Decoration/Icon1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Decoration/Icon2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Decoration/Icon2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Decoration/Icon3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Decoration/Icon3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Decoration/Unity Logo Unlit.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Decoration/Unity Logo Unlit.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Rounded UI/UIButtonCorner.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Rounded UI/UIButtonCorner.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Rounded UI/UIButtonDefault.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Rounded UI/UIButtonDefault.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Rounded UI/UIPanel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/Rounded UI/UIPanel.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/SF UI/SF Button.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/SF UI/SF Button.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/SF UI/SF Generic.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/SF UI/SF Generic.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/SF UI/SF Title.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/SF UI/SF Title.psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/SF UI/SF Window.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/Materials/Unity UI Samples/Textures and Sprites/SF UI/SF Window.psd.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Arts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Arts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Datas/Easy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Datas/Easy.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Datas/Hard.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Datas/Hard.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Datas/Medium.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Datas/Medium.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Uis/GameOverCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Uis/GameOverCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Uis/MainCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Prefabs/Uis/MainCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Controllers/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Controllers/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/GameInputs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Inputs/GameInputs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Movements/JumpWithRigidbody.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Movements/JumpWithRigidbody.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Uis/GameCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Folders/Scripts/Concretes/Uis/GameCanvas.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +112,7 @@
       <workItem from="1651685398534" duration="1169000" />
       <workItem from="1651953130735" duration="2402000" />
       <workItem from="1651957387401" duration="325000" />
-      <workItem from="1651959129613" duration="773000" />
+      <workItem from="1651959129613" duration="984000" />
     </task>
     <servers />
   </component>

@@ -37,7 +37,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1572904679, guid: b4988e16e9e03b540a38ab6740b2e0d0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -86
+      value: -143
+      objectReference: {fileID: 0}
+    - target: {fileID: 1572904681, guid: b4988e16e9e03b540a38ab6740b2e0d0, type: 3}
+      propertyPath: m_margin.y
+      value: -51.14501
       objectReference: {fileID: 0}
     - target: {fileID: 2020561331, guid: b4988e16e9e03b540a38ab6740b2e0d0, type: 3}
       propertyPath: m_Color.b
